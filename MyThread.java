@@ -9,6 +9,7 @@ public class MyThread implements Runnable {
 		for (int i = 0; i <=10; i++)
 		{
 		     System.out.println("Value of i is :"+i);
+			 System.out.println("Hello Thread");
 		     try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
